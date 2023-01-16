@@ -76,7 +76,8 @@ lines.length.times do |i|
 	# 表記の全角英数を半角に変換
 	hyouki = NKF.nkf("-m0Z1 -W -w", hyouki)
 
-	l2[p] = yomi + "	" + id_mozc + "	" + id_mozc + "	8000	" + hyouki
+	l2[p] = [yomi, id_mozc, id_mozc, "8000", hyouki]
+	l2[p] = l2[p].join("	")
 	p = p + 1
 end
 
