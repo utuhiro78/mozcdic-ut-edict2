@@ -1,8 +1,3 @@
----
-title: Mozc UT EDICT2 Dictionary
-date: 2023-01-15
----
-
 ## Overview
 
 Mozc UT EDICT2 Dictionary is a dictionary converted from [EDICT2](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) for Mozc.
