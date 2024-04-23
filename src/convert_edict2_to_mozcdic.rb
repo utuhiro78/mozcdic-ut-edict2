@@ -11,7 +11,7 @@ require 'nkf'
 `gzip -dk edict2.gz`
 
 # Mozc の一般名詞のID
-id_mozc = "1847"
+id_mozc = "1843"
 
 filename = "edict2"
 dicname = "mozcdic-ut-edict2.txt"
