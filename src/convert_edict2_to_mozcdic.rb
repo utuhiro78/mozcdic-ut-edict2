@@ -4,6 +4,7 @@
 # Author: UTUMI Hirosi (utuhiro78 at yahoo dot co dot jp)
 # License: Apache License, Version 2.0
 
+require 'open-uri'
 require 'nkf'
 
 `rm -f edict2`
@@ -11,7 +12,9 @@ require 'nkf'
 `gzip -dk edict2.gz`
 
 # Mozc の一般名詞のID
-id_mozc = "1843"
+url = "https://raw.githubusercontent.com/google/mozc/master/src/data/dictionary_oss/id.def"
+id_mozc = URI.open(url).read.split(" 名詞,一般,")[0]
+id_mozc = id_mozc.split("\n")[-1]
 
 filename = "edict2"
 dicname = "mozcdic-ut-edict2.txt"
