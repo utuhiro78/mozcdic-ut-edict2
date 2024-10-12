@@ -1,6 +1,6 @@
 ## Overview
 
-Mozc UT EDICT2 Dictionary is a dictionary converted from [EDICT2](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) for Mozc.
+A dictionary converted from [EDICT2](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) for Mozc.
 
 Thanks to the Electronic Dictionary Research and Development Group.
 
@@ -12,7 +12,7 @@ Source code: Apache License, Version 2.0
 
 ## Usage
 
-Add mozcdic-ut-*.txt to dictionary00.txt and build Mozc as usual.
+Add the dictionary to dictionary00.txt and build Mozc as usual.
 
 ```
 tar xf mozcdic-ut-*.txt.tar.bz2
